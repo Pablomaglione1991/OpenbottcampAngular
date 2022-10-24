@@ -1,0 +1,22 @@
+.btn{
+    background-color: aqua;
+    font-size: 40px;
+    font-family: 'Gill Sans';
+}
+
+btn::before{
+    content: "Pasa por aqui";
+}
+
+.btn:hover{
+    color: white;
+    background-color: green;
+}
+
+.btn::before{
+    content: "Pasa por aqui";
+}
+
+.btn:hover::before{
+    content: 'Hecho';
+}

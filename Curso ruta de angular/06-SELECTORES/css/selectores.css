@@ -1,0 +1,11 @@
+.pContenedor{
+    color: green;
+}
+
+body section.main .contenedor p{
+    color: green;
+}
+
+.contenedor #bContenedor{
+    background-color: yellow;
+}
