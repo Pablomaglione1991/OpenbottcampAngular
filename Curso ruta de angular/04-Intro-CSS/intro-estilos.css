@@ -1,0 +1,55 @@
+
+
+.colores{
+    color: orangered;
+}
+
+.color-hexadecimal{
+    color: #bce784;
+}
+
+.color-rgb{
+    color: rgb(53,71,226);
+}
+
+.color-rgba{
+    color: rgba(10, 10, 10, 0.2);
+}
+
+/* FONDOS */
+
+.fondo{
+    background-color: lightblue;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyQxr07iyu1kIYR89N_hJI57N5Y766MnOZs15SXHcq4g&s");
+    background-position: left bottom;
+}
+
+.fondo-interno{
+/*background-color: lightblue;*/
+    background-image: url("Imagenes/images.jfif");
+    background-position: left bottom;
+}
+
+/* Tamaños */
+
+.ancho{
+    background-color: #bce784;
+    width: 100px;
+}
+
+.alto{
+    background-color: aquamarine;
+    height: 200px;
+    width: 300px;
+}
+
+.tarjeta{
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    border-width: 1px;
+    /*border-top: none;*/
+    padding: 10px 20px;
+    /* padding: top right bottum left*/
+    margin: 10px 20px;
+     /* margin: top right bottum left*/
+}
