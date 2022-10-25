@@ -30,7 +30,10 @@
     align-items: center;
     padding: 2px;
     cursor: pointer;
-    align-self: flex-start;
+}
+
+.googleBtn:hover{
+    opacity: 0.6;
 }
 
 .googleBtn picture{
@@ -53,9 +56,7 @@
     padding: 15px;
 }
 
-.googleBtn:hover{
-    opacity: 0.6;
-}
+
 
 .twitterBtn{
     color: #bbb;
