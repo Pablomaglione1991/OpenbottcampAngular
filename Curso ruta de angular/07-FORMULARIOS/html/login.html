@@ -24,7 +24,7 @@
         <hr>
     </div>
     <form action="" method="">
-        <div>
+        <div class="sectionInputs">
             <label for="name">
                 <span>Name</span><input id="name" name="name">
             </label>
@@ -35,16 +35,17 @@
         </div>
         <label for="email">
             <span>Email</span>
-            <input id="email" name="email">
+            <input id="email" name="email" type="email">
         </label>
         <label for="Password">
             <span>Password</span>
-            <input name="password" id="password" placeholder="6+ Caracteres">
-            <label for="checkbox">
+            <input name="password" id="password" type="password" placeholder="6+ Caracteres">
+            <label class="checkboxLabel"for="checkbox">
                 <input type="checkbox">
                 <span>Acepto las condiciones y aviso legal</span>
             </label>
-            <button type="submit">Crear Cuenta</button>
+            <button type="submit" class="submitBtn">Crear Cuenta</button>
+        </div>
         </label>
     </form>
 </body>
