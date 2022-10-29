@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner{
+    height: 450px;
+    background-color: rgb(240, 14, 191);
+    padding: 0.5rem;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+
+}
+
+.seccionDerecha{
+    display: flex;
+    background-color: aquamarine;
+    flex-grow: 2;
+    align-items: center;
+    justify-content: center;
+    }
+
+.barraLatIzq{
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: space-evenly;
+
+}
+
+@media (max-width: 640px){
+    .conteiner{
+        flex-direction: column-reverse;
+    }
+    .barraLatIzq{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
