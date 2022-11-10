@@ -11,10 +11,35 @@
     <div class="container conteiner1">
         <div class="bg-light p-5 rounded-3">
             <div class="container-fluid">
-                <h1 class="display-5 fw-bold" >Custom Jumbotron</h1>
+                <h1 class="display-5 fw-bold"> Jumbotroom </h1>
                 <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-                <button class="btn btn-primary btn-lg" type="button">Example Buttom</button>
+                <button class="btn btn-primary btn-lg" type="button" id="#ModalEjemplo">Example Buttom</button>
+                <div class="modal fade" data-bs-backdrop="static" id="ModalEjemplo">
+                    <div class="modal-dialog modal-dialog-scrollable-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">Esto es el header</div>
+                            <div class="modal-body">
+                                <p>Esto es el body</p>
+                                <hr>
+                                <p>This 
+                                    <a href="#" role="button" class="btn btn-secondary popver-test" data-bs-toggle="popover" title="Titulo del popover" data-bs-content="Esto es el contenido del popover">button</a> triggers a popover on click.
+                                </p>
+                                <hr>
+                                <p>Esto es un <a href="#" data-bs-toggle="tooltip"
+                                    data-bs-placement="top"
+                                    title="Esto es el tooltip">Tooltip</a></p>
+        
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-outline-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                <button class="btn btn-primary">Aceptar</button>
+                            </div>
+                            Esto es el contenido
+                        </div>
+                    </div>
+                </div>
             </div>
+            
         </div>
     </div>
     <div class="container conteiner2"></div>
