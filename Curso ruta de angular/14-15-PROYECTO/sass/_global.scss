@@ -92,6 +92,10 @@
 }
 
 .sec-benefits{
-    @extend .sec-features, .intro;
+    border-top: 1px solid #ddd;
+    .intro {
+        @extend .sec-features, .intro;
+    }
+    
     
 }
